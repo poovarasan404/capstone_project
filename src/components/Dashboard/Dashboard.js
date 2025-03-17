@@ -31,6 +31,7 @@ const Dashboard = () => {
                 setUsers(response.data);
             } catch (error) {
                 console.error('Error in fetching users:', error);
+                
             }
         };
 
